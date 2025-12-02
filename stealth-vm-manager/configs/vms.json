@@ -1,0 +1,23 @@
+{
+    "autostart": ["linux-server", "windows-client"],
+    "vms": {
+        "linux-server": {
+            "type": "linux",
+            "os": "ubuntu-22.04",
+            "cpu": 2,
+            "ram": 2048,
+            "disk": "20000",
+            "network": "bridged",
+            "hidden": true
+        },
+        "windows-client": {
+            "type": "windows",
+            "os": "win10",
+            "cpu": 4,
+            "ram": 4096,
+            "disk": "50000",
+            "network": "nat",
+            "hidden": true
+        }
+    }
+}
